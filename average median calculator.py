@@ -20,6 +20,7 @@ while b == 5:
     p = g % 2
     if p > 0:
              t = u / 2 + 0.5
+             t = int(t)
              print('\nthe median is', num[t])
     else:
         q = u / 2
